@@ -1,11 +1,39 @@
 function AppListController($scope) {
 	$scope.apps = [
 		{
+			"name": "1Password",
+			"tags": ['password management'],
+			"site": "https://agilebits.com/onepassword/mac",
+			"file": "https://d13itkw33a7sus.cloudfront.net/dist/1P/mac/1Password-3.8.21.zip",
+			"save": "1password.zip"
+		},
+		{
+			"name": "Brackets",
+			"tags": ['editor', 'IDE'],
+			"site": "http://brackets.io/",
+			"file": "http://download.brackets.io/file.cfm?platform=OSX&build=26",
+			"save": "brackets.dmg"
+		},
+		{
+			"name": "CocoaRestClient",
+			"tags": ['HTTP', 'REST', 'API'],
+			"site": "https://code.google.com/p/cocoa-rest-client/",
+			"file": "https://code.google.com/p/cocoa-rest-client/downloads/detail?name=CocoaRestClient-1.3.6.dmg",
+			"save": "cocoarestclient.dmg"
+		},
+		{
 			"name": "CodeKit",
 			"tags": ['javascript', 'less', 'css'],
 			"site": "http://incident57.com/codekit",
 			"file": "http://incident57.com/codekit/files/codekit-8300.zip",
 			"save": "codekit.zip"
+		},
+		{
+			"name": "Colloquy",
+			"tags": ['chat', 'irc'],
+			"site": "http://colloquy.info/",
+			"file": "http://colloquy.info/downloads/colloquy-latest.zip",
+			"save": "colloquy.zip"
 		},
 		{
 			"name": "Dropbox",
@@ -52,9 +80,16 @@ function AppListController($scope) {
 		{
 			"name": "GitHub App",
 			"tags": ['source control', 'gui'],
-			"site": "",
+			"site": "http://mac.github.com/",
 			"file": "https://central.github.com/mac/latest",
 			"save": "github.zip"
+		},
+		{
+			"name": "LastPass",
+			"tags": ['password management'],
+			"site": "https://lastpass.com/",
+			"file": "https://lastpass.com/download/cdn/lpmacosx.dmg",
+			"save": "lastpass.dmg"
 		},
 		{
 			"name": "MySQL Server",
@@ -71,11 +106,46 @@ function AppListController($scope) {
 			"save": "opera.dmg"
 		},
 		{
+			"name": "Path Finder",
+			"tags": ['file manager'],
+			"site": "http://www.cocoatech.com/pathfinder/",
+			"file": "http://get.cocoatech.com/PF6_LION.zip",
+			"save": "pathfinder.zip"
+		},
+		{
+			"name": "Postgres.app",
+			"tags": ['postgres', 'database', 'server'],
+			"site": "http://postgresapp.com/",
+			"file": "http://postgres-app.s3.amazonaws.com/PostgresApp-9-2-4-2.zip",
+			"save": "postgreapp.zip"
+		},
+		{
+			"name": "RSS.app",
+			"tags": ['rss', 'aggregator', 'feed reader'],
+			"site": "http://www.rssapplication.com/",
+			"file": "http://www.rssapplication.com/RSS.zip",
+			"save": "rss.zip"
+		},
+		{
+			"name": "Skitch",
+			"tags": ['annotation', 'sketch'],
+			"site": "http://evernote.com/skitch/",
+			"file": "http://cdn1.evernote.com/skitch/mac/release/Skitch-2.6.1.zip",
+			"save": "skitch.zip"
+		},
+		{
 			"name": "Skype",
 			"tags": ['chat'],
 			"site": "http://www.skype.com/en/",
 			"file": "http://download.skype.com/macosx/Skype_6.5.0.443.dmg",
 			"save": "skype.dmg"
+		},
+		{
+			"name": "SourceTree",
+			"tags": ['git', 'mercurial', 'source control', 'gui'],
+			"site": "http://www.sourcetreeapp.com/",
+			"file": "http://downloads.atlassian.com/software/sourcetree/SourceTree_1.6.2.1.dmg",
+			"save": "sourcetree.dmg"
 		},
 		{
 			"name": "Spotify",
@@ -99,6 +169,13 @@ function AppListController($scope) {
 			"save": "sublime-text-2.dmg"
 		},
 		{
+			"name": "Tower",
+			"tags": ['git', 'gui', 'source control'],
+			"site": "http://www.git-tower.com/",
+			"file": "http://www.git-tower.com/download",
+			"save": "tower.zip"
+		},
+		{
 			"name": "Transmit",
 			"tags": ['ftp', 's3', 'webdav'],
 			"site": "http://panic.com/transmit/",
@@ -111,6 +188,13 @@ function AppListController($scope) {
 			"site": "http://www.vagrantup.com/",
 			"file": "http://files.vagrantup.com/packages/7e400d00a3c5a0fdf2809c8b5001a035415a607b/Vagrant-1.2.2.dmg",
 			"save": "vagrant.dmg"
+		},
+		{
+			"name": "Versions",
+			"tags": ['subversion', 'gui'],
+			"site": "http://versionsapp.com/",
+			"file": "http://cdn.versionsapp.com/updates/1.2.2_1047/Versions.zip",
+			"save": "versions.zip"
 		},
 		{
 			"name": "VirtualBox",

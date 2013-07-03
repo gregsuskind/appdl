@@ -52,7 +52,7 @@ function AppListController($scope) {
 		{
 			"name": "Skype",
 			"site": "http://www.skype.com/en/",
-			"file": "http://www.skype.com/en/download-skype/skype-for-mac/downloading/",
+			"file": "http://download.skype.com/macosx/Skype_6.5.0.443.dmg",
 			"tags": ['chat']
 		},
 		{

@@ -9,4 +9,4 @@ Just a tool for quickly downloading all of the mac apps a developer needs to get
 * Make it pretty (add in app logos)
 * Create some sort of downloader (copy / paste is lame)
 * Build in some sort of functionality for saved profiles
-* Maybe someday add some instructions to run the installers and do some cleanup afterwards
+* Maybe someday create a small downloader app to run the installers and do some cleanup afterwards

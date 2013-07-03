@@ -1,4 +1,3 @@
-
 function AppListController($scope) {
 	$scope.apps = [
 		{
@@ -19,6 +18,12 @@ function AppListController($scope) {
 			"file": "https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg",
 			"tags": ['browser']
 		},
+		{
+			"name": "Hiss",
+			"site": "http://collect3.com.au/hiss/",
+			"file": "http://collect3.com.au/hiss/Hiss.zip",
+			"tags": ['notifications', 'growl']
+		}
 		{
 			"name": "iTerm 2",
 			"site": "http://www.iterm2.com/#/section/home",

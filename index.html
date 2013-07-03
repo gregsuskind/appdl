@@ -26,7 +26,7 @@
 
 		<span ng-repeat="app in apps | filter:{selected: true}">
 			printf "\n\nDownloading {{app.name}}\n"<br />
-			curl -OL {{app.file}}<br />
+			curl -Lo {{app.save}} {{app.file}}<br />
 		</span>
 	</div>
 <script>

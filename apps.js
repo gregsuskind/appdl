@@ -92,6 +92,13 @@ function AppListController($scope) {
 			"save": "lastpass.dmg"
 		},
 		{
+			"name": "MAMP",
+			"tags": ['server', 'LAMP', 'apache', 'mysql', 'php'],
+			"site": "http://www.mamp.info/en/index.html",
+			"file": "http://www.mamp.info/downloads/releases/MAMP_PRO.zip",
+			"save": "mamp.zip"
+		},
+		{
 			"name": "MySQL Server",
 			"tags": ['database', 'server'],
 			"site": "http://www.mysql.com/",

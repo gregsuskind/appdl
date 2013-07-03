@@ -23,7 +23,7 @@ function AppListController($scope) {
 			"site": "http://collect3.com.au/hiss/",
 			"file": "http://collect3.com.au/hiss/Hiss.zip",
 			"tags": ['notifications', 'growl']
-		}
+		},
 		{
 			"name": "iTerm 2",
 			"site": "http://www.iterm2.com/#/section/home",

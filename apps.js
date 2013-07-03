@@ -113,6 +113,13 @@ function AppListController($scope) {
 			"save": "pathfinder.zip"
 		},
 		{
+			"name": "PhpStorm",
+			"tags": ['IDE', 'editor'],
+			"site": "http://www.jetbrains.com/phpstorm/",
+			"file": "http://download-ln.jetbrains.com/webide/PhpStorm-6.0.3.dmg",
+			"save": "phpstorm.dmg"
+		},
+		{
 			"name": "Postgres.app",
 			"tags": ['postgres', 'database', 'server'],
 			"site": "http://postgresapp.com/",

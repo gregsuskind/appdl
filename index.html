@@ -25,7 +25,7 @@
 		cd ~/Downloads/apps<br />
 
 		<span ng-repeat="app in apps | filter:{selected: true}">
-			printf "\n\nDownloading {{app.name}}"<br />
+			printf "\n\nDownloading {{app.name}}\n"<br />
 			curl -O {{app.file}}<br />
 		</span>
 	</div>

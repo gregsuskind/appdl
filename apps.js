@@ -127,6 +127,20 @@ function AppListController($scope) {
 			"save": "rss.zip"
 		},
 		{
+			"name": "Sequel Pro",
+			"tags": ['mysql'],
+			"site": "http://www.sequelpro.com",
+			"file": "https://sequel-pro.googlecode.com/files/sequel-pro-1.0.2.dmg",
+			"save": "sequel-pro.dmg"
+		},
+		{
+			"name": "Shimo",
+			"tags": ['vpn'],
+			"site": "http://www.chungwasoft.com/shimo/",
+			"file": "http://www.chungwasoft.com/files/Shimo_latest.zip",
+			"save": "shimo.zip"
+		},
+		{
 			"name": "Skitch",
 			"tags": ['annotation', 'sketch'],
 			"site": "http://evernote.com/skitch/",
@@ -153,13 +167,6 @@ function AppListController($scope) {
 			"site": "https://www.spotify.com/us/",
 			"file": "http://download.spotify.com/SpotifyInstaller.zip",
 			"save": "spotify.zip"
-		},
-		{
-			"name": "Sequel Pro",
-			"tags": ['mysql'],
-			"site": "http://www.sequelpro.com",
-			"file": "https://sequel-pro.googlecode.com/files/sequel-pro-1.0.2.dmg",
-			"save": "sequel-pro.dmg"
 		},
 		{
 			"name": "Sublime Text 2",

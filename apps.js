@@ -211,6 +211,27 @@ function AppListController($scope) {
 			"save": "vagrant.dmg"
 		},
 		{
+			"name": "Vim",
+			"tags": ['vim', 'linux', 'OSS', 'cli', 'text', 'editor'],
+			"site": "http://www.vim.org/",
+			"file": "http://macvim.googlecode.com/files/MacVim-snapshot-68-Mountain-Lion.tbz",
+			"save": "MacVim.tbz"
+		},
+		{
+			"name": "vim-pathogen",
+			"tags": ['vim', 'plugin', 'cli', 'text', 'editor'],
+			"site": "http://github.com/tpope/vim-pathogen",
+			"file": "http://www.vim.org/scripts/download_script.php?src_id=19375",
+			"save": "pathogen.vim"
+		},
+		{
+			"name": "The Ultimate vimrc",
+			"tags": ['vim', 'plugins', 'cli', 'text', 'editor', 'pathogen'],
+			"site": "http://github.com/amix/vimrc",
+			"file": "http://github.com/amix/vimrc/archive/master.zip",
+			"save": "the-ultimate-vimrc.zip"
+		},
+		{
 			"name": "Versions",
 			"tags": ['subversion', 'gui'],
 			"site": "http://versionsapp.com/",

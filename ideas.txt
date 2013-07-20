@@ -1,0 +1,7 @@
+evernote
+gvim + pathogen
+livereload
+VMWare Fusion
+xcode
+
+https://github.com/xdissent/ievms

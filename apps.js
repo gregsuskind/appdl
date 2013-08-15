@@ -286,6 +286,14 @@ function AppListController($scope) {
 			"file": "http://www.sparklabs.com/downloads/Viscosity.dmg",
 			"save": "viscosity.dmg",
 			"type": "download"
+		},
+		{
+			"name": "Propane",
+			"tags": ['propane, campfire'],
+			"site": "http://propaneapp.com/",
+			"file": "http://propaneapp.com/appcast/Propane.zip",
+			"save": "propane.zip",
+			"type": "download"
 		}
 	];
 }
